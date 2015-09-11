@@ -1,0 +1,21 @@
+/*pseudo classes for list, selecting child, which rows, so on*/
+ul li:first-child{
+	font-weight: bold;
+}
+
+p:first-child{
+	color: red;
+}
+ul li:nth-child(even){
+	color: red;
+}
+/* For when you hover over with mouse*/
+a:hover{
+	text-decoration: none;
+	font-weight: bold
+}
+/* Use [] when trying to change purpose of attributes*/
+a[href*="google"]{
+	color: orange;
+}
+/*resourse: cheetyr.com/css-selectors*/
